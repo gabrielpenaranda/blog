@@ -1,0 +1,7 @@
+{% extends 'index.djhtml' %}
+{% load staticfiles %}
+
+{% block titulo %}Programación{% endblock titulo %}
+
+{% block imagen %}{% static 'img/post-sample-image.jpg' %}{% endblock imagen %}
+{% block titulo_principal %}Programación{% endblock titulo_principal%}

@@ -1,0 +1,8 @@
+{% extends 'index.djhtml' %}
+{% load staticfiles %}
+
+{% block titulo %}Tecnología{% endblock titulo %}
+
+{% block imagen %}{% static 'img/post-bg.jpg' %}{% endblock imagen %}
+
+{% block titulo_principal %}Tecnología{% endblock titulo_principal%}

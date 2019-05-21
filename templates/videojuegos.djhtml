@@ -1,0 +1,8 @@
+{% extends 'index.djhtml' %}
+{% load staticfiles %}
+
+{% block titulo %}Videojuegos{% endblock titulo %}
+
+{% block imagen %}{% static 'img/about-bg.jpg' %}{% endblock imagen %}
+
+{% block titulo_principal %}Videojuegos{% endblock titulo_principal%}

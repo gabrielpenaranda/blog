@@ -1,0 +1,8 @@
+{% extends 'index.djhtml' %}
+{% load staticfiles %}
+
+{% block titulo %}Tutoriales{% endblock titulo %}
+
+{% block imagen %}{% static 'img/contact-bg.jpg' %}{% endblock imagen %}
+
+{% block titulo_principal %}Tutoriales{% endblock titulo_principal%}
